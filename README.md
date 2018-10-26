@@ -1,0 +1,4 @@
+# Classifying Subreddits
+For this project, I scraped the NBA and 76ers(a team in the NBA) subreddits. The purpose of the project was too see if I could predict which subreddit a post came from given its title. I thought it would be interesting to do these two subreddits since they are very similar.
+
+I used the titles of the posts and put them through a TFIDF Vectorizer to train my models. The models I used were Logistic Regression, Random Forest Classifier, and the Multinomial Naive Bayes models. All the models got a 80% accuracy on unseen posts, the differentiating factors in these posts being certain player names and slogans.
