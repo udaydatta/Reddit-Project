@@ -11,10 +11,12 @@ From there I used a Count Vectorizer and TFIDF Vectorizer to transform the title
 
 After doing Logistic Regression, I looked at words that came up the most frequently and it turned out to be mostly names of famous NBA players. For the NBA coefficients players that were famous industry-wide were listed and for the 76ers coefficients , star players of the team were mentioned a lot. Words like Curry, Lebron, and Kobe were words that made the classifier think a post belonged to the NBA subreddit. Words like Embiid, Joel, and Ben identified a post as being a part of 76ers subreddit. This is shown below.
 
-Top ten 76ers key words
+Top ten 76ers key words<br>
 <img src="sixersnames.PNG"></img>
+<br>
 
-Top ten NBA key words
+Top ten NBA key words<br>
 <img src="nbanames.PNG"></img>
+<br>
 
 Overall, all the models I tested performed similarly, overfitting on training data (99% accuracy) and getting lower scores for test (around 80% accuracy). Mulitnomial Naive Bayes performed the best, but it wasn't much better.
