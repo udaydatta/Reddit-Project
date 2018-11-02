@@ -11,8 +11,9 @@ From there I used a Count Vectorizer and TFIDF Vectorizer to transform the title
 
 After doing Logistic Regression, I looked at words that came up the most frequently and it turned out to be mostly names of famous NBA players. For the NBA coefficients players that were famous industry-wide were listed and for the 76ers coefficients , star players of the team were mentioned a lot.
 
-![Sixers Names]("./sixersnames.PNG")
+<img src="sixersnames.PNG"></img>
 
-![NBA Names]("./nbanames.PNG")
+<img src="nbanames.PNG"></img>
+
 
 Overall, all the model performed similarly, overfitting on training data and getting lower scores for test. Mulitnomial Naive Bayes performed the best, but it wasn't much better.
